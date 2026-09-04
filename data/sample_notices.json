@@ -1,0 +1,42 @@
+[
+  {
+    "id": "NOTICE-001",
+    "title": "Super Typhoon Kaemi - Taiwan Science Park & Kaohsiung Port Halt",
+    "category": "Extreme Weather / Port Closure",
+    "source": "Central Weather Administration & Maritime Port Bureau",
+    "published_date": "2026-09-04",
+    "raw_text": "URGENT LOGISTICS ADVISORY: Central Weather Administration Bulletin - Super Typhoon Kaemi makes landfall along eastern and northern Taiwan. Severe gale-force winds exceeding 120 knots and unprecedented localized precipitation (over 900mm) have triggered regional infrastructure alerts across Hsinchu and Taoyuan industrial corridors. Local authorities have declared mandatory work suspension across northern municipalities through Sunday. Furthermore, the Maritime Port Bureau has instituted immediate navigation freezes at the Port of Kaohsiung and Keelung, halting container vessel berthing and gantry crane operations for a minimum of 96 hours. Taoyuan International Airport cargo terminals report severe apron flooding and grounded freight flights. Suppliers in Taoyuan including Precision Microelectronics Corp have initiated emergency cleanroom safe-shutdown procedures with utility power flickering; fab operations are halted for at least 14 days pending safety certifications and water removal. Outbound container shipments from Kaohsiung to the US West Coast face transit delays of 14 to 20 days. Shippers are strongly advised to secure alternative routing or review safety stock thresholds immediately."
+  },
+  {
+    "id": "NOTICE-002",
+    "title": "Rhine River Low Water Gauge Warning - Kaub Chokepoint Critical Lows",
+    "category": "Inland Waterway / Climate",
+    "source": "German Federal Waterways and Shipping Administration (WSV)",
+    "published_date": "2026-09-03",
+    "raw_text": "GERMAN FEDERAL WATERWAYS AND SHIPPING ADMINISTRATION (WSV) ADVISORY: Due to prolonged heatwave and historic absence of alpine meltwater runoff, the official Rhine water depth gauge at Kaub has plummeted to 38 centimeters this morning, dipping below the critical 40cm commercial navigation threshold. Barges transporting bulk chemical, industrial feedstocks, and structural titanium alloys between Rotterdam and southern German manufacturing nodes (including Mannheim, Karlsruhe, and Duisburg terminals) can currently operate at only 25% to 30% of standard cargo capacity to prevent grounding. Freight forwarders warn of severe congestion at Rotterdam barge terminals, with backlogs growing daily. Transit times along the Rotterdam-Kaub-Duisburg waterway are stretched by an estimated 18 to 22 days. Rotterdam Specialty Alloys B.V. confirms that while production in Rotterdam continues, downstream barge dispatch of titanium-niobium chassis extrusions toward southern German hubs is severely constricted. Consignees are urged to explore emergency truck/rail conversion, though European intermodal rail capacity remains severely constrained."
+  },
+  {
+    "id": "NOTICE-003",
+    "title": "Maritime Security Alert - Cape of Good Hope Diversion for Asia-Europe Lanes",
+    "category": "Geopolitical / Maritime Rerouting",
+    "source": "Atlas Transpacific & Global Logistics Fleet Ops",
+    "published_date": "2026-09-02",
+    "raw_text": "CARRIER OPERATIONS BULLETIN: Atlas Transpacific & Global Logistics Fleet Management Advisory. Effective immediately following escalating security threats in the southern Red Sea and Bab-el-Mandeb Strait, Atlas Transpacific, in conjunction with the Global Maritime Alliance, has paused all container vessel transits through the Suez Canal. All eastbound and westbound Asia-Europe and Indian Ocean services are rerouted around the Cape of Good Hope indefinitely. The voyage deviation adds approximately 3,800 nautical miles, corresponding to an extended transit time of 12 to 16 days depending on vessel class and bunker speed. A Contingency Rerouting Surcharge of $1,450 per TEU and adjusted bunker adjustment factors (BAF) will be assessed on all active Bills of Lading, including Singapore-Rotterdam and Yantian-Rotterdam routes. Shippers with active purchase orders (such as PO-33109 and connected feeder networks) should update arrival ETAs accordingly."
+  },
+  {
+    "id": "NOTICE-004",
+    "title": "Labor Disruption Notice - Wildcat Strike at Antofagasta Raw Material Hub",
+    "category": "Labor Action / Raw Materials",
+    "source": "Mining & Industrial Union Advisory Chile",
+    "published_date": "2026-09-01",
+    "raw_text": "GLOBAL COMMODITY SOURCING ADVISORY: Sindicato Unificado de Trabajadores at the Salar de Atacama mineral processing facilities has commenced an unannounced 14-day wildcat strike following an impasse in collective bargaining negotiations. Access roads to the processing plants and rail arteries to the Port of Antofagasta have been blockaded by protesting union members. Refining operations for battery-grade lithium carbonate and cathode precursors have ground to an immediate halt. International mineral traders anticipate an abrupt freeze on export shipments from northern Chile lasting through at least mid-next month. Manufacturers reliant on South American mineral refining for custom lithium battery packs are advised to activate regional secondary inventory reserves or qualify alternative suppliers."
+  },
+  {
+    "id": "NOTICE-005",
+    "title": "Port Health Authority Notice - Cut Flowers & Ornamental Plant Inspections",
+    "category": "Regulatory / Agricultural Inspection",
+    "source": "Port of Rotterdam Health & Quarantine Authority",
+    "published_date": "2026-09-04",
+    "raw_text": "PORT OF ROTTERDAM LOGISTICS BULLETIN: The Netherlands Food and Consumer Product Safety Authority (NVWA) announces enhanced phytosanitary border inspection protocols for refrigerated containerized reefer shipments of live ornamental flowers, cut roses, and horticultural bulbs arriving from East Africa and South America. Due to newly detected thrips pest infestations, all perishable botanical consignments docked at Maasvlakte Cold Chain Quay 4 will undergo mandatory 72-hour quarantine hold and fumigation clearance. Ambient dry container terminals, automotive freight berths, chemical logistics, and metal/alloy barge berths are completely unaffected by this notice and continue normal 24/7 operating schedules. No impacts on non-horticultural industrial cargo."
+  }
+]
