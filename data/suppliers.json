@@ -1,0 +1,217 @@
+[
+  {
+    "id": "SUP-001",
+    "name": "Precision Microelectronics Corp",
+    "tier": 1,
+    "category": "Advanced Semiconductors",
+    "country": "Taiwan",
+    "city": "Taoyuan",
+    "port_hub": "Port of Kaohsiung / Taoyuan International Airport (TPE)",
+    "lat": 24.9936,
+    "lng": 121.3010,
+    "criticality": "Critical",
+    "parts_supplied": [
+      {
+        "part_id": "PART-MCU-901",
+        "name": "Industrial ARM Cortex-M7 Real-Time MCU",
+        "unit_cost": 48.50,
+        "standard_lead_time_days": 21,
+        "sub_tier_dependencies": ["PART-SIL-004"]
+      },
+      {
+        "part_id": "PART-ACC-302",
+        "name": "Embedded Vision Edge AI Accelerator",
+        "unit_cost": 85.00,
+        "standard_lead_time_days": 28,
+        "sub_tier_dependencies": ["PART-SIL-004"]
+      }
+    ],
+    "backup_suppliers": [
+      {
+        "id": "SUP-ALT-01",
+        "name": "Nordic Semiconductor Foundry",
+        "location": "Trondheim, Norway",
+        "port_hub": "Oslo Gardermoen (OSL)",
+        "lead_time_days": 12,
+        "unit_cost_delta_pct": 22.0,
+        "capacity_available_units": 1500,
+        "expedited_air_freight_available": true
+      }
+    ],
+    "sla_delivery_reliability": 0.985,
+    "contact_email": "ops-supply@precision-micro.tw"
+  },
+  {
+    "id": "SUP-002",
+    "name": "Shenzhen Polymer Optics Ltd",
+    "tier": 2,
+    "category": "Precision Optical Housings",
+    "country": "China",
+    "city": "Shenzhen",
+    "port_hub": "Port of Yantian / Shenzhen Bao'an (SZX)",
+    "lat": 22.5431,
+    "lng": 114.0579,
+    "criticality": "Medium",
+    "parts_supplied": [
+      {
+        "part_id": "PART-OPT-402",
+        "name": "Anti-Reflective Multi-Coated Optical Lens Assembly",
+        "unit_cost": 32.00,
+        "standard_lead_time_days": 14,
+        "sub_tier_dependencies": []
+      }
+    ],
+    "backup_suppliers": [
+      {
+        "id": "SUP-ALT-02",
+        "name": "Jena Precision Optics GmbH",
+        "location": "Jena, Germany",
+        "port_hub": "Frankfurt Cargo Hub (FRA)",
+        "lead_time_days": 7,
+        "unit_cost_delta_pct": 35.0,
+        "capacity_available_units": 800,
+        "expedited_air_freight_available": true
+      }
+    ],
+    "sla_delivery_reliability": 0.96,
+    "contact_email": "shipping@polymer-optics.cn"
+  },
+  {
+    "id": "SUP-003",
+    "name": "Rotterdam Specialty Alloys B.V.",
+    "tier": 2,
+    "category": "Aerospace & Medical Grade Alloys",
+    "country": "Netherlands",
+    "city": "Rotterdam",
+    "port_hub": "Port of Rotterdam / Rhine River Barge Terminal",
+    "lat": 51.9244,
+    "lng": 4.4777,
+    "criticality": "High",
+    "parts_supplied": [
+      {
+        "part_id": "PART-ALLOY-880",
+        "name": "Titanium-Niobium Extruded Chassis Frame",
+        "unit_cost": 145.00,
+        "standard_lead_time_days": 25,
+        "sub_tier_dependencies": []
+      }
+    ],
+    "backup_suppliers": [
+      {
+        "id": "SUP-ALT-03",
+        "name": "Sheffield Advanced Metallurgy",
+        "location": "Sheffield, UK",
+        "port_hub": "Port of Hull / Manchester Cargo",
+        "lead_time_days": 14,
+        "unit_cost_delta_pct": 18.0,
+        "capacity_available_units": 500,
+        "expedited_air_freight_available": false
+      }
+    ],
+    "sla_delivery_reliability": 0.97,
+    "contact_email": "logistics@rotterdam-alloys.nl"
+  },
+  {
+    "id": "SUP-004",
+    "name": "Kyoto High-Purity Silicon Co.",
+    "tier": 3,
+    "category": "Semiconductor Raw Material",
+    "country": "Japan",
+    "city": "Kyoto",
+    "port_hub": "Port of Kobe / Kansai International (KIX)",
+    "lat": 35.0116,
+    "lng": 135.7681,
+    "criticality": "Critical",
+    "parts_supplied": [
+      {
+        "part_id": "PART-SIL-004",
+        "name": "300mm Ultra-Pure Czochralski Silicon Boules",
+        "unit_cost": 310.00,
+        "standard_lead_time_days": 45,
+        "sub_tier_dependencies": []
+      }
+    ],
+    "backup_suppliers": [
+      {
+        "id": "SUP-ALT-04",
+        "name": "Siltronic AG",
+        "location": "Burghausen, Germany",
+        "port_hub": "Munich Airport (MUC)",
+        "lead_time_days": 30,
+        "unit_cost_delta_pct": 15.0,
+        "capacity_available_units": 250,
+        "expedited_air_freight_available": true
+      }
+    ],
+    "sla_delivery_reliability": 0.99,
+    "contact_email": "export@kyoto-silicon.jp"
+  },
+  {
+    "id": "SUP-005",
+    "name": "Bavaria Precision Hydraulics GmbH",
+    "tier": 1,
+    "category": "Mechatronic Actuators & Valves",
+    "country": "Germany",
+    "city": "Munich",
+    "port_hub": "Munich Freight Center / Autobahn A9 Logistics",
+    "lat": 48.1351,
+    "lng": 11.5820,
+    "criticality": "Medium",
+    "parts_supplied": [
+      {
+        "part_id": "PART-HYD-770",
+        "name": "High-Pressure Servo-Hydraulic Manifold",
+        "unit_cost": 210.00,
+        "standard_lead_time_days": 10,
+        "sub_tier_dependencies": []
+      }
+    ],
+    "backup_suppliers": [
+      {
+        "id": "SUP-ALT-05",
+        "name": "Moog Industrial Controls",
+        "location": "East Aurora, NY, USA",
+        "port_hub": "Buffalo Niagara / JFK Air Cargo",
+        "lead_time_days": 8,
+        "unit_cost_delta_pct": 25.0,
+        "capacity_available_units": 400,
+        "expedited_air_freight_available": true
+      }
+    ],
+    "sla_delivery_reliability": 0.975,
+    "contact_email": "disposition@bavaria-hydraulics.de"
+  },
+  {
+    "id": "SUP-006",
+    "name": "Atlas Transpacific Freight & Logistics",
+    "tier": 1,
+    "category": "Global Ocean & Multimodal Carrier",
+    "country": "Singapore",
+    "city": "Singapore",
+    "port_hub": "Port of Singapore / Jurong Island Logistics",
+    "lat": 1.3521,
+    "lng": 103.8198,
+    "criticality": "Critical",
+    "parts_supplied": [],
+    "transit_lanes": [
+      "Kaohsiung-LongBeach",
+      "Yantian-Rotterdam",
+      "Singapore-Rotterdam",
+      "Rotterdam-Kaub-Duisburg"
+    ],
+    "backup_suppliers": [
+      {
+        "id": "SUP-ALT-06",
+        "name": "Apex Air Cargo Global Charter",
+        "location": "Frankfurt / Anchorage Logistics Hub",
+        "port_hub: ": "FRA / ANC",
+        "lead_time_days": 3,
+        "unit_cost_delta_pct": 210.0,
+        "capacity_available_units": 60,
+        "expedited_air_freight_available": true
+      }
+    ],
+    "sla_delivery_reliability": 0.94,
+    "contact_email": "ops@atlas-transpacific.com"
+  }
+]

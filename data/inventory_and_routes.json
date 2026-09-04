@@ -1,0 +1,175 @@
+{
+  "assembly_plants": [
+    {
+      "plant_id": "PLANT-AUSTIN",
+      "name": "Austin Advanced Robotics & Drone Facility",
+      "location": "Austin, Texas, USA",
+      "lat": 30.2672,
+      "lng": -97.7431,
+      "daily_operating_cost_usd": 65000.0
+    },
+    {
+      "plant_id": "PLANT-MUNICH",
+      "name": "Bavaria Healthcare Diagnostics Center",
+      "location": "Munich, Bavaria, Germany",
+      "lat": 48.1351,
+      "lng": 11.5820,
+      "daily_operating_cost_usd": 82000.0
+    }
+  ],
+  "products": [
+    {
+      "product_id": "PROD-APEX",
+      "name": "Apex Pro Autonomous Industrial Drone",
+      "plant_id": "PLANT-AUSTIN",
+      "margin_usd": 3400.0,
+      "daily_build_rate": 15,
+      "orders_backlogged": 90,
+      "sla_penalty_per_day_usd": 600.0,
+      "bom_parts": [
+        "PART-MCU-901",
+        "PART-OPT-402",
+        "PART-ACC-302"
+      ]
+    },
+    {
+      "product_id": "PROD-SENTINEL",
+      "name": "Sentinel-X Precision Hospital Diagnostic Scanner",
+      "plant_id": "PLANT-MUNICH",
+      "margin_usd": 14500.0,
+      "daily_build_rate": 5,
+      "orders_backlogged": 25,
+      "sla_penalty_per_day_usd": 2800.0,
+      "bom_parts": [
+        "PART-MCU-901",
+        "PART-ALLOY-880",
+        "PART-HYD-770"
+      ]
+    },
+    {
+      "product_id": "PROD-VORTEX",
+      "name": "Vortex-7 Grid Storage Bi-Directional Inverter",
+      "plant_id": "PLANT-AUSTIN",
+      "margin_usd": 1950.0,
+      "daily_build_rate": 20,
+      "orders_backlogged": 120,
+      "sla_penalty_per_day_usd": 400.0,
+      "bom_parts": [
+        "PART-OPT-402",
+        "PART-ALLOY-880"
+      ]
+    }
+  ],
+  "inventory": [
+    {
+      "part_id": "PART-MCU-901",
+      "plant_id": "PLANT-AUSTIN",
+      "on_hand": 160,
+      "safety_stock": 90,
+      "daily_burn": 20,
+      "days_of_inventory": 8.0,
+      "unit_cost_usd": 48.50
+    },
+    {
+      "part_id": "PART-OPT-402",
+      "plant_id": "PLANT-AUSTIN",
+      "on_hand": 550,
+      "safety_stock": 180,
+      "daily_burn": 35,
+      "days_of_inventory": 15.7,
+      "unit_cost_usd": 32.00
+    },
+    {
+      "part_id": "PART-ACC-302",
+      "plant_id": "PLANT-AUSTIN",
+      "on_hand": 220,
+      "safety_stock": 80,
+      "daily_burn": 15,
+      "days_of_inventory": 14.6,
+      "unit_cost_usd": 85.00
+    },
+    {
+      "part_id": "PART-ALLOY-880",
+      "plant_id": "PLANT-MUNICH",
+      "on_hand": 65,
+      "safety_stock": 40,
+      "daily_burn": 10,
+      "days_of_inventory": 6.5,
+      "unit_cost_usd": 145.00
+    },
+    {
+      "part_id": "PART-HYD-770",
+      "plant_id": "PLANT-MUNICH",
+      "on_hand": 110,
+      "safety_stock": 35,
+      "daily_burn": 10,
+      "days_of_inventory": 11.0,
+      "unit_cost_usd": 210.00
+    },
+    {
+      "part_id": "PART-SIL-004",
+      "plant_id": "SUP-001",
+      "on_hand": 85,
+      "safety_stock": 40,
+      "daily_burn": 5,
+      "days_of_inventory": 17.0,
+      "unit_cost_usd": 310.00
+    }
+  ],
+  "in_transit_shipments": [
+    {
+      "shipment_id": "PO-98211",
+      "carrier": "Atlas Transpacific Freight & Logistics",
+      "vessel_id": "ATLAS-PACIFIC-04",
+      "origin_port": "Port of Kaohsiung",
+      "destination_hub": "Port of Long Beach / Austin Plant",
+      "transit_lane": "Kaohsiung-LongBeach",
+      "departure_date": "2026-08-27",
+      "standard_eta": "2026-09-11",
+      "current_status": "In Transit",
+      "cargo": [
+        {
+          "part_id": "PART-MCU-901",
+          "quantity": 300,
+          "supplier_id": "SUP-001"
+        }
+      ]
+    },
+    {
+      "shipment_id": "PO-44820",
+      "carrier": "Atlas Transpacific Freight & Logistics",
+      "vessel_id": "RHINE-BARGE-HERMES",
+      "origin_port": "Port of Rotterdam",
+      "destination_hub": "Duisburg Barge Terminal / Munich Plant",
+      "transit_lane": "Rotterdam-Kaub-Duisburg",
+      "departure_date": "2026-09-01",
+      "standard_eta": "2026-09-06",
+      "current_status": "In Transit",
+      "cargo": [
+        {
+          "part_id": "PART-ALLOY-880",
+          "quantity": 150,
+          "supplier_id": "SUP-003"
+        }
+      ]
+    },
+    {
+      "shipment_id": "PO-33109",
+      "carrier": "Global Maritime Alliance",
+      "vessel_id": "EVER-GIVEN-II",
+      "origin_port": "Port of Singapore",
+      "destination_hub": "Port of Rotterdam / Munich Hub",
+      "transit_lane": "Singapore-Rotterdam",
+      "departure_date": "2026-08-20",
+      "standard_eta": "2026-09-14",
+      "current_status": "In Transit",
+      "cargo": [
+        {
+          "part_id": "PART-SIL-004",
+          "quantity": 100,
+          "supplier_id": "SUP-004"
+        }
+      ]
+    }
+  ]
+}
