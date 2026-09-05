@@ -1,0 +1,87 @@
+{
+  "SUP-001": {
+    "supplier": 0.28,
+    "precision": 0.28,
+    "microelectronics": 0.28,
+    "corp": 0.28,
+    "taoyuan": 0.40,
+    "taiwan": 0.40,
+    "kaohsiung": 0.40,
+    "semiconductors": 0.28,
+    "arm": 0.28,
+    "cortex": 0.28,
+    "mcu": 0.28
+  },
+  "SUP-002": {
+    "supplier": 0.30,
+    "shenzhen": 0.45,
+    "polymer": 0.30,
+    "optics": 0.45,
+    "china": 0.30,
+    "yantian": 0.45,
+    "lens": 0.30
+  },
+  "SUP-003": {
+    "supplier": 0.28,
+    "rotterdam": 0.45,
+    "specialty": 0.28,
+    "alloys": 0.45,
+    "netherlands": 0.30,
+    "rhine": 0.45,
+    "barge": 0.45,
+    "kaub": 0.40,
+    "titanium": 0.35
+  },
+  "SUP-004": {
+    "supplier": 0.30,
+    "kyoto": 0.50,
+    "silicon": 0.50,
+    "japan": 0.35,
+    "kobe": 0.40,
+    "kansai": 0.40,
+    "boules": 0.30
+  },
+  "SUP-005": {
+    "supplier": 0.30,
+    "bavaria": 0.45,
+    "precision": 0.30,
+    "hydraulics": 0.45,
+    "germany": 0.35,
+    "munich": 0.45,
+    "manifold": 0.35
+  },
+  "SUP-006": {
+    "supplier": 0.25,
+    "atlas": 0.40,
+    "transpacific": 0.40,
+    "freight": 0.35,
+    "logistics": 0.35,
+    "singapore": 0.40,
+    "carrier": 0.35,
+    "suez": 0.45,
+    "cape": 0.40
+  },
+  "PO-98211": {
+    "shipment": 0.35,
+    "atlas": 0.35,
+    "pacific": 0.35,
+    "kaohsiung": 0.45,
+    "longbeach": 0.45,
+    "austin": 0.40
+  },
+  "PO-44820": {
+    "shipment": 0.35,
+    "rotterdam": 0.45,
+    "duisburg": 0.45,
+    "rhine": 0.45,
+    "kaub": 0.40,
+    "munich": 0.35
+  },
+  "PO-33109": {
+    "shipment": 0.35,
+    "singapore": 0.45,
+    "rotterdam": 0.45,
+    "suez": 0.45,
+    "cape": 0.40
+  }
+}

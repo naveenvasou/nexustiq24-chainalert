@@ -16,6 +16,7 @@ Crucially, ChainAlert accurately identifies non-impacting events ("No impact") t
 4. **Days-to-Stockout & Financial Exposure Analytics**: Quantifies whether existing buffer stocks can bridge the disruption window or whether factory lines will idle, calculating total contract penalty exposure and revenue at risk.
 5. **Ranked Mitigation Strategies with Trade-offs**: Generates concrete response strategies (e.g. Expedited Air Freight, Tier-2 Supplier Rerouting, Buffer Reallocation) ranked by business priority with trade-offs across Cost Delta, Delay Reduction, SLA Risk, and Execution Complexity.
 6. **Negative Impact Filtering**: Intelligently dismisses irrelevant alerts (e.g. perishables/flower cargo delays when shipping precision industrial components) with high-confidence "No Impact" verdicts.
+7. **Instant Startup with Cached Embeddings**: Includes precomputed supplier and transit routing vector representations (`data/precomputed_embeddings.json`) ensuring sub-second startup time.
 
 ---
 
@@ -27,7 +28,7 @@ ChainAlert models an advanced industrial electronics and robotics manufacturer w
   - `SUP-001`: Precision Microelectronics Corp (Taoyuan / Kaohsiung, Taiwan) — Tier-1 Microcontrollers & AI accelerators.
   - `SUP-002`: Shenzhen Polymer Optics (Shenzhen, China) — Tier-2 Optical sensor housings.
   - `SUP-003`: Rotterdam Specialty Alloys (Rotterdam / Duisburg, Netherlands/Germany) — Tier-2 Structural titanium alloys.
-  - `SUP-004`: Kyoto High-Purity Silicon (Kyoto / Osaka, Japan) — Tier-3 Semiconductor boules.
+  - `SUP-004`: Kyoto High-Purity Silicon (Kyoto / Japan) — Tier-3 Semiconductor boules.
   - `SUP-005`: Bavaria Precision Hydraulics (Munich, Germany) — Tier-1 Actuator manifolds.
   - `SUP-006`: Atlas Transpacific Freight (Global Ocean Carrier) — Major maritime transit lanes.
   - Backup suppliers with pre-negotiated activation lead times, tooling fees, and capacity allocations.
